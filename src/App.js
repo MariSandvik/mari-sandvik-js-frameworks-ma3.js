@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import Heading from "./components/layout/Heading";
 import Content from "./components/layout/Content";
+import Tripple from "./components/layout/Tripple";
 import './App.css';
 
 function App() {
@@ -13,6 +14,9 @@ function App() {
         <Content>
         This will be the children prop inside the component.
         </Content>
+        
+        <Tripple number={3} multiply={true} />
+        
         </div>
     );
 }
