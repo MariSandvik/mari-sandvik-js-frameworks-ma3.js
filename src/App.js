@@ -7,6 +7,7 @@ import './App.css';
 
 function App() {
     return (
+        <>
         <div className="App">
         <Heading title="Title from prop" subtitle="Subtitle from prop" />
         </div>
@@ -14,10 +15,11 @@ function App() {
         <Content>
         This will be the children prop inside the component.
         </Content>
-        
+
         <div className="App">
 			<NewsList />
 		</div>
+        </>
     );
 }
 
